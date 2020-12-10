@@ -9,10 +9,11 @@ def fibonaci(n):
         return 1
     
     elif n in calculated:
-        print(calculated[n])
+        # to get till n number of fib
+        # print(calculated[n])
+        
         return calculated[n]
     else:
         calculated[n]=fibonaci(n-1)+fibonaci(n-2)
         return calculated[n]
 print(fibonaci(10))
-    
