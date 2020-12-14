@@ -1,7 +1,10 @@
 # input=> abc
 # op=> abc, acb, bca, bac, cab, cba
 def permutaion(s):
+    
     output=[]
+    #base condition
+    
     if len(s)<=1:
         return s
     else:
@@ -16,6 +19,9 @@ print('-------------------------------------------------')
 from itertools import permutations
 
 def permutation_of_letters(s):
+    if len(s)<=1:
+        return s
+    else:
         string=permutaion(s)
         return string
-print(permutation_of_letters(''))
+print(permutation_of_letters('abc'))
