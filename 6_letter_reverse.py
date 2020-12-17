@@ -1,4 +1,6 @@
-# reverse strings letters
+#letters reverse in strings 
+
+
 def reverse_letters(string):
     if len(string)==1:
         return string
@@ -12,19 +14,28 @@ print(reverse_letters(string))
 
 print('----------------------------')
 
-# def reverse_letter2(string):
-#     string = "".join(reversed(string)) 
-#     print(string)
-# string='lohit badiger'
+def reverse_letter2(string):
+    string = "".join(reversed(string)) 
+    print(string)
+string='lohit badiger'
     
-# reverse_letter2(string)
+reverse_letter2(string)
 
-# print('----------------------------')
+print('----------------------------')
 
 
-# def reverse_letetr(string):
-#     string=string[::-1]
-#     print(string)
-# string='lohit badigers'
+def reverse_letetr(string):
+    string=string[::-1]
+    print(string)
+string='lohit badigers'
     
-# reverse_letetr(string)
+reverse_letetr(string)
+
+print('----------------------------')
+
+def reverse_string(string):
+    ss=''
+    for s in string:
+        s=s+ss
+    print(ss)
+reverse_string('im going')

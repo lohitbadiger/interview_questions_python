@@ -30,8 +30,3 @@ def fibonaci(n):
         return calculated[n]
 print(fibonaci(10))
 
-# address
-# //div[@data-testid="mesh-container-content"]//h4[@style="font-size:18px"][1]
-
-# zipcode
-# //div[@data-testid="mesh-container-content"]//h4[@style="font-size:18px"][2]
